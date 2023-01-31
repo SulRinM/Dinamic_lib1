@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-#ifdef LEAVERLIBRARYDYNAMIC_EXPORTS
+#ifdef DINAMICLIB1_EXPORTS
 #define LEAVERLIBRARY_API __declspec(dllexport)
 #else 
 #define LEAVERLIBRARY_API __declspec(dllimport)
