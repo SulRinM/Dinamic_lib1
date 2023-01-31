@@ -10,7 +10,7 @@
 class Leaver
 {
 public:
-	LEAVERLIBRARY_API std::string leave();
+	LEAVERLIBRARY_API std::string leave(std::string name);
 protected:
 	std::string name;
 };

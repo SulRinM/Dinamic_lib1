@@ -11,7 +11,9 @@
 int main()
 {
 	Leaver dynamic_leaver;
+	std::string Name;
 	std::cout << "Enter a name: ";
-	std::cout << "Goodbye, " << dynamic_leaver.leave() << "!"  << '\n';
+	std::cin >> Name;
+	std::cout << dynamic_leaver.leave(Name);
 	return 0;
 }

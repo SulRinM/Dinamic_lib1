@@ -1,7 +1,6 @@
 #include "Leaver.h"
 
-std::string Leaver::leave()
+std::string Leaver::leave(std::string name)
 {
-	std::cin >> name;
-	return name;
+	return "Goodbye, " + name + "!";
 }
